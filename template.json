@@ -1,0 +1,12 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Template CloudFormation criado por Fran Medeiros - Criação de bucket S3",
+  "Resources": {
+    "BucketFran": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketName": "bucket-fran-cloudformation-20251027"
+      }
+    }
+  }
+}
